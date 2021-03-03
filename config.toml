@@ -1,0 +1,158 @@
+baseURL = ""
+theme = "dot"
+title = "Dot"
+disableLanguages = [ ]
+googleAnalytics = ""
+themesDir = "themes"
+publishDir = "public"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+logo = ""
+logo_white = ""
+primary_color = "#02007e"
+body_color = "#f9f9f9"
+text_color = "#636363"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+font_family = "lato"
+contact_form_action = "#"
+
+  [[params.social]]
+  icon = "ti-facebook"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-github"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-linkedin"
+  link = "#"
+
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+copyright = "Copyright © 2020 a Hugo theme by [Gethugothemes](https://gethugothemes.com/)"
+
+[Languages.en.params.banner]
+title = "Support Center & Knowledge base"
+subtitle = "Find advice and answers from our support team fast or get in touch"
+bg_image = "images/banner.jpg"
+placeholder = "Have a question? Just ask here or enter terms"
+
+[Languages.en.params.cta]
+enable = true
+title = "Didn't find an answer to your question?"
+content = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+
+  [Languages.en.params.cta.button]
+  enable = true
+  label = "contact us"
+  link = "contact"
+
+[[Languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Faq"
+url = "faq"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "contact"
+url = "contact"
+weight = 3
+
+[[Languages.en.menu.main]]
+weight = 4
+name = "docs"
+hasChildren = true
+
+[[Languages.en.menu.main]]
+parent = "docs"
+name = "Installation"
+url = "installation"
+weight = 1
+
+[[Languages.en.menu.main]]
+parent = "docs"
+name = "Billing and Pricing"
+url = "billing-pricing"
+weight = 2
+
+[[Languages.en.menu.main]]
+parent = "docs"
+name = "Features"
+url = "features"
+weight = 3
+
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+weight = 2
+copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
+
+[Languages.fr.params.banner]
+title = "Comment pouvons nous aider?"
+subtitle = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
+bg_image = "images/banner.jpg"
+placeholder = "Avoir une question? Il suffit de demander ici ou de saisir les termes"
+
+[Languages.fr.params.cta]
+enable = true
+title = "Vous n'avez pas trouvé de réponse à votre question?"
+content = "Contactez-nous pour plus de détails sur les services supplémentaires et la tarification du travail personnalisé"
+
+  [Languages.fr.params.cta.button]
+  enable = true
+  label = "Contactez nous"
+  link = "contact"
+
+[[Languages.fr.menu.main]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+[[Languages.fr.menu.main]]
+name = "Faq"
+url = "faq"
+weight = 2
+
+[[Languages.fr.menu.main]]
+name = "contact"
+url = "contact"
+weight = 3
+
+[[Languages.fr.menu.main]]
+weight = 4
+name = "docs"
+hasChildren = true
+
+[[Languages.fr.menu.main]]
+parent = "docs"
+name = "Installation"
+url = "installation"
+weight = 1
+
+[[Languages.fr.menu.main]]
+parent = "docs"
+name = "Billing and Pricing"
+url = "billing-pricing"
+weight = 2
+
+[[Languages.fr.menu.main]]
+parent = "docs"
+name = "Features"
+url = "features"
+weight = 3
